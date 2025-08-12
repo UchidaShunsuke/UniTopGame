@@ -142,10 +142,10 @@ TextureImporter:
       name: title_chara_0
       rect:
         serializedVersion: 2
-        x: 55
-        y: 51
-        width: 1418
-        height: 1941
+        x: 28
+        y: 59
+        width: 2146
+        height: 1626
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

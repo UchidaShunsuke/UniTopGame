@@ -145,10 +145,10 @@ TextureImporter:
       name: GameStart_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 10
-        width: 368
-        height: 133
+        x: 15
+        y: 15
+        width: 361
+        height: 125
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -167,10 +167,10 @@ TextureImporter:
       name: GameStart_1
       rect:
         serializedVersion: 2
-        x: 401
-        y: 10
-        width: 391
-        height: 133
+        x: 406
+        y: 15
+        width: 385
+        height: 125
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WorldMap.unity
     guid: 7c51ecc79044e9d478aa61b376b7c1c9
+  - enabled: 1
+    path: Assets/Scenes/dungeon1.unity
+    guid: d5c6e7ada57647c4990a3e79a9f51b10
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
