@@ -12605,7 +12605,10 @@ GameObject:
   - component: {fileID: 1738596109}
   - component: {fileID: 1738596108}
   - component: {fileID: 1738596107}
-  m_Layer: 0
+  - component: {fileID: 1738596112}
+  - component: {fileID: 1738596114}
+  - component: {fileID: 1738596113}
+  m_Layer: 6
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -12767,6 +12770,48 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1738596112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738596106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe090d69b602ee43a6306ede0806827, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+  angleZ: -90
+--- !u!114 &1738596113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738596106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a92003951d65e146886a0b23751acff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootSpeed: 12
+  shootDelay: 0.25
+  bowPrefab: {fileID: 3248487434948955407, guid: 24cd9ab6b6073414cacdf3436fda71a4, type: 3}
+  arrowPrefab: {fileID: 4570071815049260522, guid: db442fe2e9963f4438ff2725ad6d53ec, type: 3}
+--- !u!114 &1738596114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738596106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa76b3c45ef60664098a8c063b14d274, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2095937285
 GameObject:
   m_ObjectHideFlags: 0

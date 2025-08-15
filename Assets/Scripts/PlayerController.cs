@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerControler : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     public float speed = 3.0f;      //移動スピード
     int direction = 0;              //移動方向
@@ -47,7 +47,7 @@ public class PlayerControler : MonoBehaviour
         if(isMoving == false)
         {
             axisH = Input.GetAxisRaw("Horizontal");     //左右キー入力
-            axisV = Input.GetAxisRaw("Vartical");     //上下キー入力
+            axisV = Input.GetAxisRaw("Vertical");     //上下キー入力
         }
 
         //キー入力の角度を求める
