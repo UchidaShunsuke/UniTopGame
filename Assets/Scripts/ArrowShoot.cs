@@ -60,10 +60,7 @@ public class ArrowShoot : MonoBehaviour
         {
             //攻撃キーが押された
             Attack();
-            if(ItemKeeper.hasArrows <= 0)
-            {
-                Debug.Log("矢のストック：０本");
-            }
+            Debug.Log("矢のストック：" + ItemKeeper.hasArrows + "本");
         }
 
         //弓の回転と優先順位
